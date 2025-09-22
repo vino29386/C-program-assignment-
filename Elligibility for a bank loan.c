@@ -15,7 +15,7 @@ int main()
     printf("Enter your annual income: ");
     scanf("%f",&annual_income);
 
-    if(age>21 && annual_income>21000)
+    if(age>=21 && annual_income>=21000)
     {
         printf("You are eligible for a loan");
     }
@@ -23,4 +23,5 @@ int main()
     {
         printf("You are not eligible for a loan");
     }
+
 }
