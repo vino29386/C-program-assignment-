@@ -15,8 +15,7 @@ int main() {
    printf("Communication Skills UCU2101!!\n");
    printf("Introduction to Programming & Problem Solving SPC2101!!\n");
    printf("Fundamentals of Systems Analysis & Design SSE2101!!\n");
-   
-   return 0;
+    return 0;
    }
    
   
