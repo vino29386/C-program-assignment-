@@ -23,5 +23,5 @@ int main()
     {
         printf("You are not eligible for a loan");
     }
-
 }
+
