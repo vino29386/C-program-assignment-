@@ -28,4 +28,5 @@ New balance =balance-amount
 	 //display the new balance
 	 printf("Your New balance is:%f\n ",Balance);
 	 return 0;
+
  }
