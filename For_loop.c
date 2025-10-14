@@ -1,6 +1,6 @@
 /*
 Name: Vincent Melvin Kimanthi
-Reg:PA104/G/29386/25
+Reg:PA106/G/29386/25
 For loop
 Declaration:program to list do numbers from 100 to 50
 */
@@ -16,4 +16,5 @@ int main(){
 	}
 
 return 0;
+
 }
