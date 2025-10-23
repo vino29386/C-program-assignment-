@@ -13,7 +13,7 @@ int main(){
 	float result,temperature;
 	
 	//prompt the user to input the temperature
-	printf("Input the temperature(In Fahrenheit):");
+	printf("Input the temperature(In Fahrenheit):\n");
 	scanf("%f",&temperature);
 	
 	//Function call
@@ -29,4 +29,5 @@ float Temp_converter(float temperature,float constant){
 	float Temperature_in_celsius;
 	Temperature_in_celsius=(temperature-constant) * 5/9;
 	return Temperature_in_celsius;
+
 }
