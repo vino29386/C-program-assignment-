@@ -30,8 +30,8 @@ int main(){
     result_2=volume(Radius,Height);
     
     //output
-    printf("The surface_area is :%f\n",result_1);
-    printf("The Total_volume is:%f\n",result_2);
+    printf("The surface_area is :%.2f\n",result_1);
+    printf("The Total_volume is:%.2f\n",result_2);
     
 	return 0;
 }
@@ -46,4 +46,5 @@ float volume(float Radius, float Height){
 	float Total_volume;
 	Total_volume=M_PI*Radius*Radius*Height;
 	return Total_volume;
+
 }
