@@ -6,28 +6,29 @@ Fare calculator
 
 #include <stdio.h>
 
-//function prototype
-float calculatefare(float distance);
+//Function Prototype
+float calculate_fare(float distance, float rate);
 
 int main(){
 	float rate=50.0;
-	float fare,distance,result;
+	float distance,result;
 	
-	//prompt the user to enter the distance covered 
-	printf("Enter the distance covered:");
+	//prompt the user to enter the distance covered
+	printf("Enter the distance covered in kilometers:");
 	scanf("%f",&distance);
 	
 	//function call
-	result=calculatefare(distance,rate);
+	result=calculate_fare(distance,rate);
 	
 	//output
-	printf("The Total_fare is:.2%f \n");
+	printf("The Total_fare is :%.2f\n",result);
 	
 	return 0;
 }
-//function definition
-float Total_fare(float distance){
+//Function definition
+float calculate_fare(float distance,float rate){
 	float Total_fare;
 	Total_fare=distance * rate;
+	
 	return Total_fare;
 }
