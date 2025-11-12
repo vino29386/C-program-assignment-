@@ -2,7 +2,7 @@
 Name: Vincent Melvin Kimanthi
 Reg: PA106/G/29386/25
 Declaration:A university stores student examination results in a binary file
-named results.dat.Each record contains a student’s name, registration number,
+named results.dat.Each record contains a studentâ€™s name, registration number,
 and total marks.
 */
 
@@ -22,7 +22,7 @@ int main() {
     int n, i;
 
     // Open file in binary write mode
-    fptr = fopen("C:\\Falcon\\results.dat", "wb");
+    fptr = fopen("C:\\Falcon\\results.dat", "ab");
     if (fptr == NULL) {
         printf("Error: Could not open file!\n");
         return 1;
@@ -73,3 +73,4 @@ int main() {
     fclose(fptr);
     return 0;
 }
+
